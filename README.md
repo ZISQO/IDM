@@ -260,7 +260,7 @@ Klipper 애플리케이션 펌웨어 업로드
 python3 ~/klipper/lib/canboot/flash_can -f ~/IDM/Firmware/IDM_CAN_8kib_offset_1M.bin -u <found uuid>
 ```
 
-## 12. USB 설
+## 12. USB 설치
 USB로 변경하려면 USB 펌웨어로 설정하되 IDM PCB 뒷면의 USB 패딩 2개를 서로 맞 붙도록 쇼트 처리하면 됩니다.
 ```
 python3 ~/klipper/lib/canboot/flash_can.py -f ~/IDM/Firmware/IDM_USB_8kib_offset.bin -u <found uuid>
