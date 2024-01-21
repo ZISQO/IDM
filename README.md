@@ -220,7 +220,7 @@ BED_MESH_CALIBRATE
 ## 8. 고속 모드 진입
 ```z_tilt``` 또는 ```quad_gantry_level``` 명령 실행 중 현재 ```horizontal_z_move``` 값이 만약 2mm로 측정되고 printer.cfg의 idm 섹션에 설정한 ```trigger_distance``` + ```trigger_dive_threshold``` 총 합이 4였다면 레벨링 교정 과정을 고속으로 진입하게 됩니다(다이브 모드) 물론 고속 모드를 사용하지 않으려면 ```trigger_distance```를 1로 설정하고 ```trigger_dive_threshold```를 0.5로 설정하면 1.5mm를 초과하는 Z 높이에선 고속모드로 ```Z-TILT```및 ```quad_gangry_level``` 교정을 고속 모드로 진행하지 않게 됩니다
 
-## 9. 가속도계 활성화 Enable The Accelerometer
+## 9. 가속도계 활성화
 lisdw 가속도계가 추가된 모델의 경우 아래 설정을 printer.cfg에 추가하도록 합니다
 ```
 [lis2dw]
