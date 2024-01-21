@@ -18,9 +18,9 @@ ssh 상에서 clone 명령을 사용해 설치 스크립트를 실행합니다
 ```
 cd ~
 git clone https://github.com/ZISQO/IDM.git
-chmod +x ./IDM_LSP/install.sh
+chmod +x ./IDM/install.sh
 ./IDM/install.sh
-chmod -x ./IDM_LSP/install.sh
+chmod -x ./IDM/install.sh
 ```
 
 ## 2-1. 문레이커 업데이트 수정
