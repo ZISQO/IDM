@@ -74,7 +74,7 @@ printer.cfg 파일 속성 중 ```[probe]``` 섹션은 삭제/주석 처리 해�
 ```
 [stepper_z]
 endstop_pin: probe:z_virtual_endstop # use idm as virtual endstop
-homing_retract_dist: 0 # idm은 0으로 설정하고 beacon은 3으로 설정합니
+homing_retract_dist: 0 # idm은 0으로 설정하고 beacon은 3으로 설정합니다
 ```
 
 이미 ```[safe_z_home]``` 또는 ```[homing_override]``` 섹션을 사용중이라면 다음 단계를 건너 뛸 수 있습니다
@@ -172,7 +172,7 @@ IDM_ESTIMATE_BACKLASH
 ```
 
 ## 6. 베드 메시 교정
-베드 메시 명령을 실행합니다다
+베드 메시 명령을 실행합니다
 ```
 BED_MESH_CALIBRATE
 ```
