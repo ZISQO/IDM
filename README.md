@@ -17,7 +17,7 @@ IDM 스캐너를 3D 프린터 툴헤드에 장착합니다(일반적으로 Z의 
 ssh 상에서 clone 명령을 사용해 설치 스크립트를 실행합니다
 ```
 cd ~
-git clone https://github.com/ZISQO/IDM_LSP.git
+git clone https://github.com/ZISQO/IDM.git
 chmod +x ./IDM_LSP/install.sh
 ./IDM/install.sh
 chmod -x ./IDM_LSP/install.sh
