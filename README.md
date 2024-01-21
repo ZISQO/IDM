@@ -177,9 +177,7 @@ IDM_ESTIMATE_BACKLASH
 BED_MESH_CALIBRATE
 ```
 
-## 7. 출
-You're now ready to print.
-
+## 7. 출력
 첫 번째 프린트에서는 툴헤드 탭의 z-offset 값을 수정해 첫 번째 레이어 옵셋 값을 조정하시길 권장하며
 
 인쇄가 완료된 후, 이 값을 저장하기 위해 ```Z_OFFSET_APPLY_PROBE`` 명령을 사용하면 됩니다
