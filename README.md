@@ -24,6 +24,39 @@ chmod +x ./IDM_LSP/install.sh
 chmod -x ./IDM_LSP/install.sh
 ```
 
+## 2-1. 문레이커 업데이트 수정
+NBTP의 자동 업데이트를 사용하려면 아래의 내용을 문레이커 환경 설정 파일에 추가해 주세요
+```
+[update_manager idm]
+type: git_repo
+channel: dev
+path: ~/IDM
+origin: https://gitee.com/NBTP/IDM.git
+env: ~/klippy-env/bin/python
+requirements: requirements.txt
+install_script: install.sh
+is_system_service: False
+managed_services: klipper
+info_tags:
+  desc=IDM Surface Scanner
+```
+
+뉴타입의 IDM 업데이트를 사용하려면 아래의 내용을 문레이커 환경 설정 파일에 추가해 주세요
+```
+[update_manager idm]
+type: git_repo
+channel: dev
+path: ~/IDM
+origin: https://github.com/ZISQO/IDM.git
+env: ~/klippy-env/bin/python
+requirements: requirements.txt
+install_script: install.sh
+is_system_service: False
+managed_services: klipper
+info_tags:
+  desc=IDM Surface Scanner
+```
+
 ## 3. IDM 모듈의 클리퍼 설정
 printer.cfg에 아래 섹션을 추가합니다
 ```
